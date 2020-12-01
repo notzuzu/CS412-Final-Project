@@ -5,7 +5,7 @@ import datetime
 begin_timer = datetime.datetime.now()
 
 class Graph:
-    def __init__(self, vertices):  
+    def __init__(self, vertices):  #graph functions
         self.V = vertices
         self.graph = []  
   
@@ -18,15 +18,15 @@ class Graph:
             print("{0}\t\t{1}".format(i, dist[i]))
 
     def BellmanFord(self, src):   
-        dist = [float("Inf")] * self.V  
+        dist = [float("Inf")] * self.V  #step 1 initialization 
         dist[src] = 0
   
-        for _ in range(self.V - 1):  
+        for _ in range(self.V - 1):  #step 2 relaxation 
             for u, v, w in self.graph:  
                 if dist[u] != float("Inf") and dist[u] + w < dist[v]:  
                         dist[v] = dist[u] + w
                         
-        for u, v, w in self.graph:  
+        for u, v, w in self.graph:  #step 3 check for negative cycles 
                 if dist[u] != float("Inf") and dist[u] + w < dist[v]:  
                         print("Graph contains negative weight cycle") 
                         return
