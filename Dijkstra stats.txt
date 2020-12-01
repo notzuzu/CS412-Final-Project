@@ -1,0 +1,22 @@
+= RESTART: C:\Users\Acer\Documents\Assignments\Fall 2020\Algorithms Design & Analysis\Project\Dijkstra.py
+{'U': 1, 'V': 2, 'W': 2, 'X': 0, 'Y': 1, 'Z': 2}
+0.009975
+>>> 
+= RESTART: C:\Users\Acer\Documents\Assignments\Fall 2020\Algorithms Design & Analysis\Project\Dijkstra.py
+{'U': 1, 'V': 2, 'W': 2, 'X': 0, 'Y': 1, 'Z': 2}
+0.007737
+>>> 
+= RESTART: C:\Users\Acer\Documents\Assignments\Fall 2020\Algorithms Design & Analysis\Project\Dijkstra.py
+{'U': 1, 'V': 2, 'W': 2, 'X': 0, 'Y': 1, 'Z': 2}
+0.007731
+>>> 
+= RESTART: C:\Users\Acer\Documents\Assignments\Fall 2020\Algorithms Design & Analysis\Project\Dijkstra.py
+{'U': 1, 'V': 2, 'W': 2, 'X': 0, 'Y': 1, 'Z': 2}
+0.006788
+>>> 
+= RESTART: C:\Users\Acer\Documents\Assignments\Fall 2020\Algorithms Design & Analysis\Project\Dijkstra.py
+{'U': 1, 'V': 2, 'W': 2, 'X': 0, 'Y': 1, 'Z': 2}
+0.00743
+
+---------------------------------------------
+Average runtime after 5 runs = 0.0079322 seconds
