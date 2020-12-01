@@ -1,7 +1,4 @@
 import heapq
-import time
-
-start=time.process_time()
 
 def calculate_distances(graph, starting_vertex):
     distances = {vertex: float('infinity') for vertex in graph}
@@ -31,7 +28,3 @@ example_graph = {
     'Z': {'W': 5, 'Y': 1},
 }
 print(calculate_distances(example_graph, 'X'))
-print(time.process_time() - start)
-
-#Best time: 0.0
-#Worst time: 0.015625
