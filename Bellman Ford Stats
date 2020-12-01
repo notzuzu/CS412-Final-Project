@@ -1,0 +1,46 @@
+Vertex Distance from Source
+0		0
+1		-1
+2		2
+3		-2
+4		1
+0.021946
+>>> 
+=================== RESTART: C:\Users\Acer\Desktop\script.py ===================
+Vertex Distance from Source
+0		0
+1		-1
+2		2
+3		-2
+4		1
+0.033058
+>>> 
+=================== RESTART: C:\Users\Acer\Desktop\script.py ===================
+Vertex Distance from Source
+0		0
+1		-1
+2		2
+3		-2
+4		1
+0.037297
+>>> 
+=================== RESTART: C:\Users\Acer\Desktop\script.py ===================
+Vertex Distance from Source
+0		0
+1		-1
+2		2
+3		-2
+4		1
+0.035904
+>>> 
+=================== RESTART: C:\Users\Acer\Desktop\script.py ===================
+Vertex Distance from Source
+0		0
+1		-1
+2		2
+3		-2
+4		1
+0.141919
+
+
+Average time of 5 operations = 0.0540228
